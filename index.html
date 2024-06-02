@@ -9,23 +9,37 @@
   <body>
     <div class="carousel">
       <div class="carousel-items">
-          <!-- Define you carousel here -->
+        <!-- Define you carousel here -->
+        <img src="./carousel1.jpg" alt="loading" />
+      </div>
+      <!-- <div class="carousel-items">
+          Define you carousel here
+          <img src="./carousel2.jpg" alt="loading">
           
-      </div>
-  </div>
+      </div> -->
+    </div>
 
-  <div class="app-container">
-
+    <div class="app-container">
       <!-- Define your rest of the things of the Image TODO List app here -->
-      
-      </div>
+
+      <label for="input-file" id="drop-area">
+        <input type="file" accept="image/*" id="input-file" />
+        <div id="img-view">
+          <img
+            src="https://www.lifewire.com/thmb/TRGYpWa4KzxUt1Fkgr3FqjOd6VQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cloud-upload-a30f385a928e44e199a62210d578375a.jpg"
+            alt="img-upload_icon"
+          />
+          <p>
+            Drag & Drop or <br />
+            Click to upload the image.
+          </p>
+        </div>
+      </label>
 
       <div class="file-list" id="fileList">
-          <!-- Create the space here where your uploaded image will be visible -->
+        <!-- Create the space here where your uploaded image will be visible -->
       </div>
-      
-      
-  </div>
-  <script src="script.js"></script>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
